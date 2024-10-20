@@ -1,0 +1,192 @@
+*{
+    padding: 0;margin: 0;box-sizing: border-box;
+}
+.p1 .bg-block{
+    width: 100vw;
+    height: 85vh;
+    background-image: url('/img/bg-1.jpg');
+    /* background-position: 10%; */
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.p1 nav{
+    width: 100vw;
+    height: fit-content;
+    padding: 10px 0px;
+}
+.p1 .links{
+    opacity: 0.8;
+    margin: auto;
+    width: 620px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color:rgb(86, 97, 100);
+    border-radius: 5px;
+    padding: 20px;
+}
+.p1 nav .links a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.box{
+    width: auto;
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.mid-block{
+    width: fit-content;
+    height: fit-content;
+    border-radius: 5px;
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+    opacity: 0.5;
+}
+.mid-block h2{
+    color: rgb(121, 5, 5);
+    font-size: 50px;
+    letter-spacing: 5px;
+}
+
+.fol {
+    width: 100vw;
+    height: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+
+}
+.fol .logos{
+    width: fit-content;
+    background-color: rgb(12, 17, 6);
+    text-align: end;
+    position: relative;
+    opacity: 0.5;
+    top: 8px;
+    right: 10px;
+    padding: 10px;
+}
+
+.fol .logos a{
+    margin: 10px;   
+    color: rgb(255, 252, 252);
+    font-weight: bolder;
+    font-size: larger;
+}
+
+.p2{
+    width: 100vw;
+    height: fit-content;
+    background-color: rgb(128, 214, 128);
+}
+.p2 header{
+    text-align: center;
+    padding: 20px;
+}
+
+.p2 main section{
+    width: 90vw;
+    margin: auto;
+}
+
+#food{
+    width: 60vw;
+    height: 20vh;
+    margin: auto;
+    background-image: url('/img/food-production.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+#env{
+    width: 60vw;
+    height: 20vh;
+    margin: auto;
+    background-image: url('/img/envronment.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.p2 #env .txt{
+    /* position: relative;
+    top: 20px; */
+    margin: auto;
+    padding: 10px;
+    background-color: rgb(7, 12, 14);
+    width: fit-content;
+    opacity: 0.5;
+}
+.p2 #food .txt{
+    position: relative;
+    top: 20px;
+    margin: auto;
+    padding: 10px;
+    background-color: rgb(7, 12, 14);
+    width: fit-content;
+    opacity: 0.5;
+}
+#food .txt h3, #env .txt h3{
+    color: whitesmoke;
+    font-size: 30px;
+}
+.txt .intxt{
+    background-color: transparent;
+    opacity: 0.8;
+    border: 1px solid black;
+    padding: 20px;
+    height: 300px;
+    overflow: scroll;
+    position: relative;
+    bottom: 10px;
+}
+ .txt b{
+    margin: 10px 0px;
+    font-weight: bold;
+    /* color: red; */
+    /* font-size: 20px; */
+}
+
+@media only screen and (max-width:550px) {
+    .p1 .links{
+        width: 400px;
+    }
+    .p1 .bg-block{
+        width: 100vw;
+        height: 85vh;
+        background-image: url('/img/mobile_view\ bg\(1\).avif');
+        /* background-position: 10%; */
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .p1 .box .mid-block h2{
+        font-size: 40px;
+    }
+    .p1 .fol .logos{
+        margin-top: 30px;
+        padding: 0px;
+        border-radius: 5px;
+    }
+    #food, #env{
+        width: 350px;
+    }
+
+    #food .txt h3, #env .txt h3{
+        font-size: 20px;
+    }
+    section .txt{
+        text-align: center;
+    }   
+    section .txt .intxt{
+        text-align: start;
+    }
+    .intxt b{
+        line-break: auto;
+    }
+}

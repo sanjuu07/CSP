@@ -1,0 +1,18 @@
+body{
+    width: 100vw;
+    height: 100vh;
+    background-image: url('/error-desktop.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+@media only screen and (max-width:480px) {
+    body{
+        width: 100vw;
+        height: 100vh;
+        background-image: url('/error-mobile.jpeg');
+        background-position: center;
+        background-size: cover;
+    }
+}
+
