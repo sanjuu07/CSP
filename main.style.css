@@ -4,7 +4,7 @@
 .p1 .bg-block{
     width: 100vw;
     height: 85vh;
-    background-image: url('/img/bg-1.jpg');
+    background-image: url('img/bg-1.jpg');
     /* background-position: 10%; */
     background-repeat: no-repeat;
     background-size: cover;
