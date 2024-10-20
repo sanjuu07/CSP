@@ -100,7 +100,7 @@
     width: 60vw;
     height: 20vh;
     margin: auto;
-    background-image: url('/img/food-production.jpeg');
+    background-image: url('img/food-production.jpeg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -109,7 +109,7 @@
     width: 60vw;
     height: 20vh;
     margin: auto;
-    background-image: url('/img/envronment.jpg');
+    background-image: url('img/envronment.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -160,7 +160,7 @@
     .p1 .bg-block{
         width: 100vw;
         height: 85vh;
-        background-image: url('/img/mobile_view\ bg\(1\).avif');
+        background-image: url('img/mobile_view\ bg\(1\).avif');
         /* background-position: 10%; */
         background-repeat: no-repeat;
         background-size: cover;
